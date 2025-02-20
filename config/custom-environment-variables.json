@@ -15,7 +15,9 @@
   "binance": {
     "live": {
       "apiKey": "BINANCE_LIVE_API_KEY",
-      "secretKey": "BINANCE_LIVE_SECRET_KEY"
+      "secretKey": "BINANCE_LIVE_SECRET_KEY",
+      "httpBase": "BINANCE_LIVE_HTTP_BASE",
+      "wsBase": "BINANCE_LIVE_WS_BASE"
     },
     "test": {
       "apiKey": "BINANCE_TEST_API_KEY",

@@ -7,6 +7,8 @@ const binanceOptions = {};
 if (config.get('mode') === 'live') {
   binanceOptions.apiKey = config.get('binance.live.apiKey');
   binanceOptions.apiSecret = config.get('binance.live.secretKey');
+  binanceOptions.httpBase = config.get('binance.live.httpBase');
+  binanceOptions.wsBase = config.get('binance.live.wsBase');
 } else {
   binanceOptions.httpBase = 'https://testnet.binance.vision';
   binanceOptions.wsBase = 'wss://testnet.binance.vision/ws';
