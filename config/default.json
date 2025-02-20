@@ -9,7 +9,9 @@
   "binance": {
     "live": {
       "apiKey": "",
-      "secretKey": ""
+      "secretKey": "",
+      "httpBase": "",
+      "wsBase": ""
     },
     "test": {
       "apiKey": "",
